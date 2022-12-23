@@ -2,7 +2,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { Notify } from 'notiflix';
 
-axios.defaults.baseURL = 'https://wallet-project.cyclic.app/';
+axios.defaults.baseURL = 'https://uptight-top-coat-fish.cyclic.app';
 
 const token = {
   set(token) {

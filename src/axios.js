@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: ' https://wallet-project.cyclic.app/',
+  baseURL: 'https://uptight-top-coat-fish.cyclic.app',
 });
 
 instance.interceptors.request.use(config => {
