@@ -12,11 +12,11 @@ export default class TotalSum extends Component {
           <>
             <div className={styles.blockSum}>
               <p>Expenses:</p>
-              <p className={styles.sumExpenses}>{totalSums.spent}</p>
+              <p className={styles.sumExpenses}>{totalSums.spent.toFixed(2)}</p>
             </div>
             <div className={styles.blockSum}>
               <p>Income:</p>
-              <p className={styles.sumIncome}>{totalSums.earned}</p>
+              <p className={styles.sumIncome}>{totalSums.earned.toFixed(2)}</p>
             </div>
           </>
         )}
